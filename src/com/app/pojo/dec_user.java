@@ -5,9 +5,9 @@ import java.util.Date;
 public class dec_user {
 	private int id;
 	private String devCode;
-	private String devllane;
+	private String devName;
 	private String devPassword;
-	private String devEnail;
+	private String devEmail;
 	private String devInfo;
 	private int createdBy;
 	private Date creationDate;
@@ -25,11 +25,11 @@ public class dec_user {
 	public void setDevCode(String devCode) {
 		this.devCode = devCode;
 	}
-	public String getDevllane() {
-		return devllane;
+	public String getDevName() {
+		return devName;
 	}
-	public void setDevllane(String devllane) {
-		this.devllane = devllane;
+	public void setDevName(String devllane) {
+		this.devName = devllane;
 	}
 	public String getDevPassword() {
 		return devPassword;
@@ -38,10 +38,10 @@ public class dec_user {
 		this.devPassword = devPassword;
 	}
 	public String getDevEnail() {
-		return devEnail;
+		return devEmail;
 	}
-	public void setDevEnail(String devEnail) {
-		this.devEnail = devEnail;
+	public void setDevEnail(String devEmail) {
+		this.devEmail = devEmail;
 	}
 	public String getDevInfo() {
 		return devInfo;
